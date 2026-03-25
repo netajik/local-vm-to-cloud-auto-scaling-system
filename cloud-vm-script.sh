@@ -28,7 +28,7 @@ systemctl restart apache2
 # Clean old logs
 rm -f /tmp/app.log
 
-# Create Flask app (UPDATED with students + JSON)
+# Create Flask app
 tee /tmp/app.py > /dev/null <<EOF
 from flask import Flask, jsonify
 import socket
