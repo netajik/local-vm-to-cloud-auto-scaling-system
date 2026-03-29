@@ -5,7 +5,7 @@ from monitor import is_cpu_usage_gt75
 
 app = Flask(__name__)
 
-CLOUD_URL = "http://35.232.7.156:80/students"
+CLOUD_URL = "http://35.232.7.156:80"
 
 students = [
     {"id": 1, "name": "Ramu", "course": "CS"},
